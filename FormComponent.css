@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', "sans-serif";
+}
+
+main {
+    display: flex;
+    background-color: #ff253a;
+}
+
+
+section {
+    padding: 50px;
+}
+
+section#Company {
+    background-color: #4892f0;
+    width: 50%;
+    text-align: center;
+}
+
+section#companyForm {
+    background-color: cadetblue;
+    width: 50%;
+}
+
+#moreInfo {
+    display: flex;
+}
+
+/* Form H1 */
+#companyForm:nth-child(2) {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
