@@ -3,12 +3,17 @@
 }
 
 body {
+    margin-top: 200px;
     font-family: 'Roboto', "sans-serif";
+    background-color: #f7f7f7;
 }
 
 main {
     display: flex;
     background-color: #ff253a;
+    width: 60%;
+    margin: auto;
+    box-shadow: 1px 2px 8px grey;
 }
 
 
@@ -17,19 +22,40 @@ section {
 }
 
 section#Company {
-    background-color: #4892f0;
+    background-color: #fff;
     width: 50%;
     text-align: center;
-}
 
-section#companyForm {
-    background-color: cadetblue;
-    width: 50%;
 }
 
 #moreInfo {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+section#companyForm {
+    background-color: #172A39;
+    width: 50%;
+}
+
+section#companyForm > h1 {
+    color: #fff;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: none;
+}
+
+button {
+    background-color: #40b2ac;
+    color: #fff;
+}
+
 
 /* Form H1 */
 #companyForm:nth-child(2) {
