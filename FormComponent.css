@@ -3,62 +3,12 @@
 }
 
 body {
-    margin-top: 200px;
-    font-family: 'Roboto', "sans-serif";
-    background-color: #f7f7f7;
-}
+    margin-top: 240px;
+    font-family: 'Raleway', "sans-serif";
+    background: #9D50BB;
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+    background: linear-gradient(to right, #6E48AA, #9D50BB);
 
-main {
-    display: flex;
-    width: 60%;
-    margin: auto;
-    box-shadow: 1px 2px 8px grey;
-}
-
-
-section {
-    padding: 50px;
-}
-
-section#Company {
-    background-color: #fff;
-    width: 50%;
-    text-align: center;
-
-}
-
-#moreInfo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-section#companyForm {
-    background-color: #172A39;
-    width: 50%;
-}
-
-section#companyForm > h1 {
-    color: #fff;
-}
-
-input, button {
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    border: none;
-}
-
-button {
-    background-color: #40b2ac;
-    color: #fff;
-}
-
-
-/* Form H1 */
-#companyForm:nth-child(2) {
-    text-align: center;
 }
 
 form {
@@ -67,3 +17,79 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+section#companyForm {
+    background-color: white;
+    max-width: 30%;
+    height: 500px;
+    margin: auto;
+}
+
+ h1 {
+    padding-top: 40px;
+    color: #c33764;
+    font-weight: 500;
+    font-family: 'Roboto', "sans-serif";
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    margin-top: 8px !important;
+    text-align: center;
+
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: none;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 200px;
+    background-color: #c33764;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+i.fab {
+    padding: 10px;
+    margin: 18px;
+    font-size: 16px;
+    color: #c33764;
+    border-radius: 30px;
+    background-color: #ffe3e4;
+    cursor: pointer;
+}
+
+
+div {
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        margin: 25% 25%;
+    }
+    section#companyForm {
+        max-width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* NEEDS WORK */
+
+
